@@ -1,7 +1,7 @@
 name: Hide and Seek server
-version: "1.0.0"
+version: "1.1.0"
 slug: hide_n_seek
-description: Game server for Hide and Seek (online play for the app and the web)
+description: Game server for Hide and Seek (online play for the app, plus a download page)
 url: https://github.com/Jryolsn/ha-addons
 arch:
   - amd64
