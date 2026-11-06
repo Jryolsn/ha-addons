@@ -1,6 +1,6 @@
 # Home Assistant add-ons
 
-Add-on repository for the game servers. Add this URL under
+Add-on repository for my home server (game servers and other services). Add this URL under
 Settings > Add-ons > Add-on store > Repositories:
 
     https://github.com/Jryolsn/ha-addons
@@ -9,4 +9,4 @@ Settings > Add-ons > Add-on store > Repositories:
 | --- | --- | --- |
 | Hide and Seek server | ghcr.io/jryolsn/hide-n-seek | 8080 |
 
-The next game gets the next port (8081, ...) and its own Cloudflare Tunnel hostname.
+Each service gets its own host port and, if public, its own Cloudflare Tunnel hostname.
