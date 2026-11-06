@@ -1,0 +1,16 @@
+name: Hide and Seek server
+version: "1.0.0"
+slug: hide_n_seek
+description: Game server for Hide and Seek (online play for the app and the web)
+url: https://github.com/Jryolsn/ha-addons
+arch:
+  - amd64
+  - aarch64
+image: ghcr.io/jryolsn/hide-n-seek
+init: false
+startup: application
+boot: auto
+ports:
+  8080/tcp: 8080
+ports_description:
+  8080/tcp: Game server (point the Cloudflare tunnel here)
